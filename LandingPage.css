@@ -1,0 +1,55 @@
+.landing {
+    position: relative;
+    text-align: center;
+}
+
+.library  {
+    max-width: 100%;
+    display: block;
+    opacity: 0.1;
+    margin-bottom: 100px;
+}
+
+.landing p {
+    font-size: 60px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Welcome {
+    position: relative;
+    bottom: 500px;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #000; 
+}
+
+.gate {
+    font-size: 32px;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #000;
+}
+
+.soft {
+    color: #8e9eab;
+    text-shadow: 2px 2px 3px #ffffff;
+}
+
+.reads {
+    color: #8e9eab;
+    text-shadow: 2px 2px 3px#ffffff;
+}
+
+.added {
+    text-align: center;
+    margin-top: 100px;
+}
+
+hr {
+    border: 15px dotted #ffffff;
+    border-style: none none dotted; 
+    opacity: 0.2;
+    width: 100px;
+    margin: auto;
+}

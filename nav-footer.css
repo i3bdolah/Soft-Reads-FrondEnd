@@ -1,0 +1,81 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+}
+
+body {
+    background: #8e9eab;
+    background: -webkit-linear-gradient(to right, #8e9eab, #eef2f3);
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nav .logo {
+    height: 48px;
+    width: 48px;
+    align-self: center;
+    gap: 1000px;
+}
+
+.nav .SF {
+    height: 20px;
+    width: 130px;
+    margin-top: 50px;
+}
+
+.nav p {
+    display: inline;
+    margin: 50px 50px 50px 50px;
+    font-size: 16px;
+    transition: 0.3s ease-in-out !important
+}
+
+.nav p:hover {
+    box-shadow: 0px 3px 0px 0 rgb(255, 255, 255), 0 1px 0px 0 rgb(255, 255, 255);
+    transition-duration: 0.6s;
+}
+
+.nav {
+    background: #8e9eab;
+    background: -webkit-linear-gradient(to right, #8e9eab, #eef2f3);
+    background: linear-gradient(to right, #8e9eab, #eef2f3);    width: 100%;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.logout {
+    position: relative;
+    top: 4px;
+    right: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+.log-btn {
+    border: 2px solid #8e9eab;
+    padding-left: 10px;
+}
+
+footer {
+    background: #8e9eab;
+    background: -webkit-linear-gradient(to right, #8e9eab, #eef2f3);
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+footer p {
+    color: rgb(0, 0, 0);
+}

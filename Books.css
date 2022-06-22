@@ -1,0 +1,7 @@
+hr {
+    border: 15px dotted #ffffff;
+    border-style: none none dotted; 
+    opacity: 0.2;
+    width: 100px;
+    margin: auto;
+}

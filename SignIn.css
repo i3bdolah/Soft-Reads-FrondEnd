@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+    transition-duration: 0.3s;
+}
+
+body {
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      text-align: left;
+    
+}
+
+p {
+    text-shadow: 0 0 13px white;
+    color: #EEEEEE;
+}
+
+
+.container {
+    height: 920px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignIn p {
+    font-size: 30px;
+}
+
+
+.SignIn {
+    color: #11468F;
+}
+
+.input {
+    padding: 50px;
+    font-size: 20px;
+}
+
+.reset-pass {
+    text-shadow: 0 0 13px white;
+    color: #EEEEEE;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    display: block;
+    font-size: 14px;
+
+}
+
+.input1 {
+    border: 0px solid whitesmoke;
+    width: 300px;
+    padding: 12px;
+    margin: 8px 0;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    transition-duration: 0.7s;
+    font-size: 16px;
+
+}
+
+.input2 {
+    border: 0px solid whitesmoke;
+    width: 300px;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 30px;
+    transition-duration: 0.7s;
+    font-size: 16px;
+
+}
+
+::placeholder {
+    opacity: 0.5;
+    
+}
+
+.btn {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 100px;
+    height: 30px;
+    margin-right: 99px;
+    border: none;
+    color: #000;
+    background-color: white;
+    transition-duration: 0.7s;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    box-shadow: 0 5px 5px 0 #000, 0 5px 5px 0 #000;
+}
+
+a {
+  text-shadow: 0 0 13px white;
+  color: #EEEEEE;
+  font-size: 14px;
+}

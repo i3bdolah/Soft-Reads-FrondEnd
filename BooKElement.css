@@ -1,0 +1,37 @@
+.container {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.book {
+    padding: 20px;
+    margin: 100px;
+    box-shadow: 1px 1px 10px 5px rgb(171, 171, 171);
+    background-color: #ffffff;
+    text-align: center;
+    height: 390px;
+    width: 300px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out !important;
+}
+
+.book:hover {
+    box-shadow: 1px 1px 10px 5px rgb(121, 121, 121);
+}
+
+.book .name {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.book b {
+    color: rgb(0, 0, 0);;
+}
+
+.book_img {
+    height: 300px;
+    box-shadow: 1px 1px 8px 1px  rgb(184, 184, 184);
+}
